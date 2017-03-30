@@ -10,7 +10,7 @@ CREATE TABLE reviewer(
   id serial PRIMARY KEY,
   name varchar,
   email varchar,
-  karma integer CHECK (karma >=0 and karma <=7) 
+  karma integer CHECK (karma >=0 and karma <=7)
 
 );
 
